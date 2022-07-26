@@ -1,8 +1,7 @@
-import React from 'react'
+import React from "react";
 import { Link } from "react-router-dom";
 import { useSelector } from "react-redux";
-import handleCart from "./../redux/reducer/handleCart";
-
+import handleCart from "./../redux/reducer/handlecart";
 const Navbar = () => {
   const state = useSelector((state) => state.handleCart);
   return (
@@ -10,14 +9,10 @@ const Navbar = () => {
       <nav className="navbar navbar-expand-lg navbar-light bg-white py-3 shadow-sm">
         <div className="container">
           <Link className="navbar-brand fw-bold fs-4" to="#">
-            Ronix Shopping Mall.
+            Ronix Shop
           </Link>
           <button
-            className="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
+            className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
@@ -32,7 +27,7 @@ const Navbar = () => {
               </li>
               <li className="nav-item">
                 <Link className="nav-link" to="products">
-                  Produts
+                  Products
                 </Link>
               </li>
               <li className="nav-item">
@@ -47,14 +42,14 @@ const Navbar = () => {
               </li>
             </ul>
             <div className="buttons">
-              <Link to="login" className="btn btn-outline-light">
+              <Link to="login" className="btn btn-outline-dark">
                 <i className="fa-solid fa-arrow-right-to-bracket me-1"></i>{" "}
                 Login
               </Link>
-              <Link to="register" className="btn btn-outline-light ms-2">
+              <Link to="register" className="btn btn-outline-dark ms-2">
                 <i className="fa-solid fa-user-plus ms-2"></i> Register
               </Link>
-              <Link to="cart" className="btn btn-outline-light ms-2">
+              <Link to="cart" className="btn btn-outline-dark ms-2">
                 <i className="fa-solid fa-cart-plus ms-2"></i>Cart(
                 {state.length})
               </Link>
@@ -64,6 +59,6 @@ const Navbar = () => {
       </nav>
     </div>
   );
-}
+};
 
 export default Navbar;
