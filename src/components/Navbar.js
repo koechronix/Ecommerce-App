@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from "react-router-dom";
 import { useSelector } from "react-redux";
-// import handleCart from "./../redux/reducer/handleCart";
+import handleCart from "./../redux/reducer/handleCart";
 
 const Navbar = () => {
   const state = useSelector((state) => state.handleCart);
