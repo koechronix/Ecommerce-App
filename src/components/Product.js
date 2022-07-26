@@ -45,6 +45,44 @@ const Product = () => {
     );
   };
 
+  const ShowProduct = () => {
+    return (
+      <>
+        <div className="col-md-6">
+          <img
+            src="https://d2rbyiw1vv51io.cloudfront.net/web/ikea4/images/100/0810062_PE771235_S5.jpg"
+            className="card-img-top my-5"
+            alt={product.title}
+            height="400px"
+            width="400px"
+          />
+        </div>
+        <div className="col-md-6">
+          <h4 className="text-uppercase text-black-50">{product.title}</h4>
+          <h1 className="display-5">titles</h1>
+          <p className="lead">
+            Rating {product.rating} && product.rating.rate{" "}
+            <i class="fa-solid fa-star"></i>
+          </p>
+          <h3 className="display-6 fw-bold my-4 ">
+            <i class="fa-solid fa-rupee-sign"></i> price
+          </h3>
+          <p className="lead">description</p>
+          <button
+            className="btn btn-outline-dark px-4 py-2"
+            onClick={() => addProduct(product)}
+          >
+            <i class="fa-solid fa-cart-plus"></i> Add To Cart
+          </button>
+          <Link to="/cart" className="btn btn-dark ms-2 px-3 py-2">
+            Go To Cart
+          </Link>
+        </div>
+      </>
+    );
+  };
+
+
   
   return (
     <div>Product</div>
