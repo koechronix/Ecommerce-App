@@ -8,6 +8,22 @@ const Products = () => {
   const [loading, setLoading] = useState(false);
 
   let componentMount = true;
+  useEffect(() => {
+    const getProducts = async () => {
+      setLoading(true);
+      const res = await fetch("https://fakestoreapi.com/products");
+      if (componentMount) {
+        setData(await res.clone().json());
+        setFilter(await res.json());
+        setLoading(false);
+        console.log(filter);
+      }
+      return () => {
+        componentMount = false;
+      };
+    };
+    getProducts();
+  }, []);
   return (
     <div>Products</div>
   )
