@@ -8,7 +8,7 @@ const Home = () => {
      <div className="hero">
         <div class="card bg-dark text-white border-0">
           <img
-            src="./asset/img1.jpg"
+            src="https://www.placesofjuma.com/wp-content/uploads/2019/04/iconsiam-1024x683.jpg"
             class="card-img"
             alt="background"
             height="550px"
