@@ -82,11 +82,17 @@ const Product = () => {
     );
   };
 
-
-  
   return (
-    <div>Product</div>
-  )
-}
+    <div>
+      <div className="container py-4">
+        <div className="row py-4">
+          {loading ? <Loading /> : <ShowProduct />}
+        </div>
+      </div>
+    </div>
+  );
+};
+  
+ 
 
-export default Product
+export default Product;
