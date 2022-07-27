@@ -17,7 +17,7 @@ const Product = () => {
 
   const addProduct = (product) =>{
     dispatch(addCart(product));
-    // console.log(product, "product")
+    console.log(product, "product")
   };
 
   useEffect (() => {
@@ -28,7 +28,7 @@ const Product = () => {
       setLoading(false);
     }
 
-    //    getProduct ();
+       getProducts ();
 
   }, [])
   const Loading = () => {
