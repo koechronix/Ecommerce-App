@@ -4,11 +4,45 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-} 
+}  */
 
-/* navbar style */
+navbar style
 
-/* .navbar-nav a {
+.navbar-nav a {
   font-size: 18px;
-} */
-/* /* navbar style end  */
+}
+
+
+
+/* @import url("/node_modules/mockman-js/dist/style.css");
+@import url('react-toastify/dist/ReactToastify.css');
+:root{
+  --cadet:#1f2937;
+}
+
+html{
+    background-image: linear-gradient(to right, black, var(--cadet));
+    min-width: max-content;
+}
+
+button.btn.prim-btn:hover, button.btn.prim-acc-btn:hover{
+    transform: none;
+}
+
+button.btn.prim-acc.btn:hover{
+    background-color: whitesmoke;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: var(--black);
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: var(--primary-color);
+    border-radius: var(--sp-2);
+  }
+ */
