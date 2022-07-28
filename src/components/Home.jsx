@@ -58,10 +58,11 @@ const Home = () => {
                 height="500 px"
               />
               <div class="carousel-caption d-none d-md-block">
-                <h5>About</h5>
+                <h3 style={{color: "green"}}><bold>About</bold></h3>
                 <p>
-                  WE are located in located in Nairobi 
-                  .
+                  We are located in located in Nairobi 
+                  and all men fashions are available and also we have electronics 
+                  Welcome in and shop with us.
                 </p>
               </div>
             </div>
