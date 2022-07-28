@@ -38,13 +38,13 @@ const Home = () => {
           <div class="carousel-inner">
             <div class="carousel-item active">
               <img
-                src="https://images.pexels.com/photos/1416377/pexels-photo-1416377.jpeg"
+                src="https://thumbs.dreamstime.com/b/bangkok-thailand-december-emquartier-luxury-shopping-center-design-mall-green-environmentally-friendly-concept-hanging-193107970.jpg"
                 class="d-block w-100"
                 alt="..."
                 height="500 px"
               />
               <div class="carousel-caption d-none d-md-block">
-                <h5>First slide label</h5>
+                <h3 style={{color: "blue"}}><strong>Various Fashions available</strong></h3>
                 <p>
                   Some representative placeholder content for the first slide.
                 </p>
@@ -52,7 +52,7 @@ const Home = () => {
             </div>
             <div class="carousel-item">
               <img
-                src="https://images.pexels.com/photos/4198972/pexels-photo-4198972.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+                src="https://sc01.alicdn.com/kf/HTB1kMnjKcbpK1RjSZFyq6x_qFXa1/227775920/HTB1kMnjKcbpK1RjSZFyq6x_qFXa1.jpg"
                 class="d-block w-100"
                 alt="..."
                 height="500 px"
@@ -66,7 +66,7 @@ const Home = () => {
             </div>
             <div class="carousel-item">
               <img
-                src="https://images.pexels.com/photos/7679445/pexels-photo-7679445.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                src="https://img.freepik.com/premium-photo/shopping-cart-laptop-text-welcome-yellow-paper-business-concept-copy-space_297535-1957.jpg?w=2000"
                 class="d-block w-100"
                 alt="..."
                 height="500 px"
@@ -100,10 +100,12 @@ const Home = () => {
         </div>
         <div class="card-img-overlay d-flex justify-content-center flex-column">
           <div className="container">
-            <h5 class="card-title display-3 fw-bolder mb-0">
-              New Season Arrivals
+            <h5 class="card-title display-3 fw-bolder mb-0"
+                style={{color: "pink"}}
+            >
+              New Fashions 
             </h5>
-            <p class="card-text lead fs-2">Check all trends at our shop</p>
+            <p class="card-text lead fs-2" style={{color:"#351E10"}}>Check All In Ronix Shop</p>
           </div>
         </div>
       </div>

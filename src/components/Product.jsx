@@ -20,17 +20,17 @@ const Product = () => {
     console.log(product, "product")
   };
 
-  // useEffect (() => {
-  //   const getProducts = async () => {
-  //     setLoading(true);
-  //     const res = await fetch(`https://fakestoreapi.com/products/${id}`);
-  //     setProduct(await res.json());
-  //     setLoading(false);
-  //   }
+  useEffect (() => {
+    const getProducts = async () => {
+      setLoading(true);
+      const res = await fetch(`http://localhost:4000/products${id}`);
+      setProduct(await res.json());
+      setLoading(false);
+    }
 
-  //      getProducts ();
+       getProducts ();
 
-  // }, [])
+  }, [])
   const Loading = () => {
     return (
       <>
