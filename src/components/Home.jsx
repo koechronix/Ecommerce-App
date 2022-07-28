@@ -58,9 +58,10 @@ const Home = () => {
                 height="500 px"
               />
               <div class="carousel-caption d-none d-md-block">
-                <h5>Second slide label</h5>
+                <h5>About</h5>
                 <p>
-                  Some representative placeholder content for the second slide.
+                  WE are located in located in Nairobi 
+                  .
                 </p>
               </div>
             </div>

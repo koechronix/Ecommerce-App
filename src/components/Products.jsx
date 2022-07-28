@@ -62,7 +62,7 @@ const Products = () => {
             className="btn btn-outline-dark me-2"
             onClick={() => filterProduct("men's clothing")}
           >
-           Clothing
+           Men's clothing
           </button>
           {/* <button
             className="btn btn-outline-dark me-2"

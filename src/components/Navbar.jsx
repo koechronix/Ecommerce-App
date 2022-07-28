@@ -30,26 +30,10 @@ const Navbar = () => {
                   Products
                 </Link>
               </li>
-              {/* <li className="nav-item">
-                <Link className="nav-link" to="about">
-                  About
-                </Link>
-              </li> */}
-              {/* <li className="nav-item">
-                <Link className="nav-link" to="contact">
-                  Contact
-                  
-                </Link>
-              </li> */}
+              
             </ul>
             <div className="buttons">
-              {/* <Link to="login" className="btn btn-outline-dark">
-                <i className="fa-solid fa-arrow-right-to-bracket me-1"></i>{" "}
-                Login
-              </Link>
-              <Link to="register" className="btn btn-outline-dark ms-2">
-                <i className="fa-solid fa-user-plus ms-2"></i> Register
-              </Link> */}
+             
               <Link to="cart" className="btn btn-outline-dark ms-2">
                 <i className="fa-solid fa-cart-plus ms-2"></i>Cart(
                 {state.length})
