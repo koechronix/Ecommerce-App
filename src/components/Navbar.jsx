@@ -29,8 +29,7 @@ const Navbar = () => {
                 <Link className="nav-link" to="products">
                   Products
                 </Link>
-              </li>
-              
+              </li>   
             </ul>
             <div className="buttons">
              
