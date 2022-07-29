@@ -59,7 +59,7 @@ const Home = () => {
               />
               <div class="carousel-caption d-none d-md-block">
                 <h3 style={{color: "green"}}><bold>About</bold></h3>
-                <p>
+                <p style={{color: "blue", fontSize: "15 px"}}>
                   We are located in located in Nairobi 
                   and all men fashions are available and also we have electronics 
                   Welcome in and shop with us.
@@ -74,9 +74,9 @@ const Home = () => {
                 height="500 px"
               />
               <div class="carousel-caption d-none d-md-block">
-                <h5>Third slide label</h5>
-                <p>
-                  Some representative placeholder content for the third slide.
+                <h2 style={{color: "red"}}>WELCOME TO RONIX SHOP</h2>
+                <p style={{color: "green"}}>
+                  THANK YOU FOR SHOPPING WITH US.
                 </p>
               </div>
             </div>
@@ -107,7 +107,7 @@ const Home = () => {
             >
               New Fashions 
             </h5>
-            <p class="card-text lead fs-2" style={{color:"#351E10"}}>Check All In Ronix Shop</p>
+            <p class="card-text lead fs-2" style={{color:"red"}}>Check All In Ronix Shop</p>
           </div>
         </div>
       </div>

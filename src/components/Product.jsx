@@ -20,17 +20,17 @@ const Product = () => {
     console.log(product, "product")
   };
 
-  useEffect (() => {
-    const getProducts = async () => {
-      setLoading(true);
-      const res = await fetch(`http://localhost:4000/products${id}`);
-      setProduct(await res.json());
-      setLoading(false);
-    }
+  // useEffect (() => {
+  //   const getProducts = async () => {
+  //     setLoading(true);
+  //     const res = await fetch(`http://localhost:4000/products${id}`);
+  //     setProduct(await res.json());
+  //     setLoading(false);
+  //   }
 
-       getProducts ();
+  //      getProducts ();
 
-  }, [])
+  // }, [])
   const Loading = () => {
     return (
       <>
@@ -55,7 +55,7 @@ const Product = () => {
       <>
         <div className="col-md-6">
           <img
-            src="https://d2rbyiw1vv51io.cloudfront.net/web/ikea4/images/100/0810062_PE771235_S5.jpg"
+            src={`http://localhost:4000/products${id}`}
             className="card-img-top my-5"
             alt={product.title}
             height="400px"

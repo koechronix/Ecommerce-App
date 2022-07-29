@@ -11,10 +11,10 @@ const App = () => {
     <>
       <Navbar />
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="products" element={<Products />} />
-        <Route path="products/:id" element={<Product />} />
-        <Route path="cart" element={<Cart />} />
+        <Route exact  path="/" element={<Home />} />
+        <Route exact path="products" element={<Products />} />
+        <Route  exact path="products/:id" element={<Product />} />
+        <Route exact path="cart" element={<Cart />} />
       </Routes>
     </>
   );
