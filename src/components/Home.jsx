@@ -44,9 +44,9 @@ const Home = () => {
                 height="500 px"
               />
               <div class="carousel-caption d-none d-md-block">
-                <h3 style={{color: "blue"}}><strong>Various Fashions available</strong></h3>
+                <h3 style={{color: "blue"}}><strong>Men Fashions And Electronics Available</strong></h3>
                 <p>
-                  Some representative placeholder content for the first slide.
+                  SHOP WITH US.
                 </p>
               </div>
             </div>
@@ -60,9 +60,8 @@ const Home = () => {
               <div class="carousel-caption d-none d-md-block">
                 <h3 style={{color: "green"}}><bold>About</bold></h3>
                 <p style={{color: "blue", fontSize: "15 px"}}>
-                  We are located in located in Nairobi 
-                  and all men fashions are available and also we have electronics 
-                  Welcome in and shop with us.
+                  WE AT RONIX SHOP WE OFFER BEST AND QUALITY PRODUCTS. 
+                  
                 </p>
               </div>
             </div>

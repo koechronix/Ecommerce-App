@@ -1,18 +1,19 @@
 ## Title and Description
+*** Ronix Shop***
 
 ## Mini-Ecommerce App
 This is an simple mini-ecommerce app which is I can use to navigate around the homepage 
 and be able to filter products and categoricarically for men,electronics and all products.
 
 ## About Development
-### The mini-ecommerce app is still in BULDING  PROGRESS ..........
+### The mini-ecommerce app is still in ***BULDING IN PROGRESS*** ..........(worry not about button functionality of products )
 So as to ensure we can be able to buy the products at our Ronix Shop...
 
 
-# Also 
+# Also (backend)
 The project uses db json in which you can access and add products manually following 
 the structure that has been implemented in the database and after adding products 
-youcan go to the server and refresh the page and you see products has been updated successfully according to the categories..
+you can go to the server and refresh the page and  products are  updated successfully according to the categories..
 
 
 ## How Mini-Ecommerce App works
@@ -38,7 +39,8 @@ Hi, I'm Amos Koech ! 👋
 I 'm currently studying Software Engineering, and aspiring to to be Full Stack Developer.
 
 
-## Tech stack
+# Tech stack
 ### react -through $ npx create-react-app (process)
-### bootstrap- adding all components
+### bootstrap- adding all c
+# Deployment
 ### heroku
