@@ -87,6 +87,14 @@
         "category": "men's clothing",
         "description": "Easy upgrade for faster boot up, shutdown, application load and response (As compared to 5400 RPM SATA 2.5” hard drive; Based on published specifications and internal benchmarking tests using PCMark vantage scores) Boosts burst write performance, making it ideal for typical PC workloads The perfect balance of performance and reliability Read/write speeds of up to 535MB/s/450MB/s (Based on internal testing; Performance may vary depending upon drive capacity, host device, OS and application.)",
         "image":"https://media.wired.com/photos/5fa5c9e7ba670daaf8e97a79/master/w_1280,c_limit/Gear-Xero-HFS-SOURCE-Xero-Shoes.jpg"
+    },
+    {
+        "id":12,
+        "title":"Shirt",
+        "price": 500.00,
+        "category": "men's clothing",
+        "description": "Easy upgrade for faster boot up, shutdown, application load and response (As compared to 5400 RPM SATA 2.5” hard drive; Based on published specifications and internal benchmarking tests using PCMark vantage scores) Boosts burst write performance, making it ideal for typical PC workloads The perfect balance of performance and reliability Read/write speeds of up to 535MB/s/450MB/s (Based on internal testing; Performance may vary depending upon drive capacity, host device, OS and application.)",
+        "image":"https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/tc-men-shirts-1646419602.jpg?crop=0.500xw:1.00xh;0.498xw,0&resize=640:*"
     }
   ]
 }
