@@ -38,3 +38,6 @@ I 'm currently studying Software Engineering, and aspiring to to be Full Stack D
 
 
 ## Tech stack
+### react -through $ npx create-react-app (process)
+### bootstrap- adding all components
+### heroku
