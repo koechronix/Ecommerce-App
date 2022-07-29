@@ -105,7 +105,7 @@ const Home = () => {
             <h5 class="card-title display-3 fw-bolder mb-0"
                 style={{color: "pink"}}
             >
-              New Fashions 
+              Latest Arrivals...
             </h5>
             <p class="card-text lead fs-2" style={{color:"red"}}>Check All In Ronix Shop</p>
           </div>

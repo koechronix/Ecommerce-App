@@ -5,8 +5,9 @@ This is an simple mini-ecommerce app which is I can use to navigate around the h
 and be able to filter products and categoricarically for men,electronics and all products.
 
 ## About Development
-### The mini-ecommerce app is still in PROGRESS ..........
+### The mini-ecommerce app is still in BULDING  PROGRESS ..........
 So as to ensure we can be able to buy the products at our Ronix Shop...
+
 
 # Also 
 The project uses db json in which you can access and add products manually following 

@@ -20,6 +20,17 @@ const Product = () => {
     console.log(product, "product")
   };
 
+//   POST method ;how to update products from db.json and be updated automatically;
+// {
+//     "id": ,
+//     "title": ,
+//     "price": ,
+//     "category": ,
+//     "description": ,
+// //     "image": 
+
+// }
+
   // useEffect (() => {
   //   const getProducts = async () => {
   //     setLoading(true);
