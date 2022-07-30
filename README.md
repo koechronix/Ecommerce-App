@@ -1,9 +1,11 @@
 ## Title and Description
 *** Ronix Shop***
+This in
 
 ## Mini-Ecommerce App
-This is an simple mini-ecommerce app which is I can use to navigate around the homepage 
-and be able to filter products and categoricarically for men,electronics and all products.
+This is an simple mini-ecommerce app which is I can use to navigate around the homepage, 
+and be able to filter products and categoricarically for men,electronics and all products but ***Buy now button*** is not functioning at the moment since the mini app project in in bulding process.
+Also, the app is **fully responsive**
 
 ## About Development
 ### The mini-ecommerce app is still in ***BULDING IN PROGRESS*** ..........(worry not about button functionality of products )
@@ -11,9 +13,8 @@ So as to ensure we can be able to buy the products at our Ronix Shop...
 
 
 # Also (backend)
-The project uses db json in which you can access and add products manually following 
-the structure that has been implemented in the database and after adding products 
-you can go to the server and refresh the page and  products are  updated successfully according to the categories..
+The project uses db json to fetch data in which you can access and products ..
+hence the bulding is ***progress***
 
 
 ## How Mini-Ecommerce App works
@@ -41,6 +42,6 @@ I 'm currently studying Software Engineering, and aspiring to to be Full Stack D
 
 # Tech stack
 ### react -through $ npx create-react-app (process)
-### bootstrap- adding all c
+### bootstrap- adding all 
 # Deployment
 ### heroku

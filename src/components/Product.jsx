@@ -69,8 +69,6 @@ const Product = () => {
           <h4 className="text-uppercase text-black-50">{product.title}</h4>
           <h1 className="display-5">titles</h1>
           <p className="lead">
-            {/* Rating {product.rating} && product.rating.rate{" "} */}
-            {/* <i class="fa-solid fa-star"></i> */}
           </p>
           <h3 className="display-6 fw-bold my-4 ">
             <i class="fa-solid fa-rupee-sign"></i> price
