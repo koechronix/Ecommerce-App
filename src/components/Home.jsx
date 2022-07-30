@@ -38,46 +38,11 @@ const Home = () => {
           <div class="carousel-inner">
             <div class="carousel-item active">
               <img
-                src="https://thumbs.dreamstime.com/b/bangkok-thailand-december-emquartier-luxury-shopping-center-design-mall-green-environmentally-friendly-concept-hanging-193107970.jpg"
+                src=" "
                 class="d-block w-100"
                 alt="..."
-                height="500 px"
+                height="150 px"
               />
-              <div class="carousel-caption d-none d-md-block">
-                <h3 style={{color: "blue"}}><strong>Men Fashions And Electronics Available</strong></h3>
-                <p>
-                  SHOP WITH US.
-                </p>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <img
-                src="https://sc01.alicdn.com/kf/HTB1kMnjKcbpK1RjSZFyq6x_qFXa1/227775920/HTB1kMnjKcbpK1RjSZFyq6x_qFXa1.jpg"
-                class="d-block w-100"
-                alt="..."
-                height="500 px"
-              />
-              <div class="carousel-caption d-none d-md-block">
-                <h3 style={{color: "green"}}><bold>About</bold></h3>
-                <p style={{color: "blue", fontSize: "15 px"}}>
-                  WE AT RONIX SHOP WE OFFER BEST AND QUALITY PRODUCTS. 
-                  
-                </p>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <img
-                src="https://img.freepik.com/premium-photo/shopping-cart-laptop-text-welcome-yellow-paper-business-concept-copy-space_297535-1957.jpg?w=2000"
-                class="d-block w-100"
-                alt="..."
-                height="500 px"
-              />
-              <div class="carousel-caption d-none d-md-block">
-                <h2 style={{color: "red"}}>WELCOME TO RONIX SHOP</h2>
-                <p style={{color: "green"}}>
-                  THANK YOU FOR SHOPPING WITH US.
-                </p>
-              </div>
             </div>
           </div>
           <button
@@ -102,15 +67,14 @@ const Home = () => {
         <div class="card-img-overlay d-flex justify-content-center flex-column">
           <div className="container">
             <h5 class="card-title display-3 fw-bolder mb-0"
-                style={{color: "pink"}}
+                style={{color: "black", textAlign: "center"}}
             >
               Latest Arrivals...
             </h5>
-            <p class="card-text lead fs-2" style={{color:"red"}}>Check All In Ronix Shop</p>
           </div>
         </div>
       </div>
-      <Products />
+      {/* <Products /> */}
       </div>
     </>
   );

@@ -10,38 +10,30 @@ import { addCart } from "./../redux/action/index";
 
 const Product = () => {
   const { id } = useParams;
-  const [product, setProduct] = useState([]);
-  const [loading, setLoading] = useState(false);
+  
 
   const dispatch = useDispatch();
 
-  const addProduct = (product) =>{
+  const addProduct = (product) => {
+
     dispatch(addCart(product));
-    console.log(product, "product")
+    // console.log(product, "product")
   };
 
-//   POST method ;how to update products from db.json and be updated automatically;
-// {
-//     "id": ,
-//     "title": ,
-//     "price": ,
-//     "category": ,
-//     "description": ,
-// //     "image": 
+  const [product, setProduct] = useState([]);
+  const [loading, setLoading] = useState(false);
 
-// }
+  useEffect (() => {
+    const getProducts = async () => {
+      setLoading(true);
+      const res = await fetch(`http://localhost:4000/products${id}`);
+      setProduct(await res.json());
+      setLoading(false);
+    }
 
-  // useEffect (() => {
-  //   const getProducts = async () => {
-  //     setLoading(true);
-  //     const res = await fetch(`http://localhost:4000/products${id}`);
-  //     setProduct(await res.json());
-  //     setLoading(false);
-  //   }
+       getProducts ();
 
-  //      getProducts ();
-
-  // }, [])
+  }, [])
   const Loading = () => {
     return (
       <>
@@ -77,8 +69,8 @@ const Product = () => {
           <h4 className="text-uppercase text-black-50">{product.title}</h4>
           <h1 className="display-5">titles</h1>
           <p className="lead">
-            Rating {product.rating} && product.rating.rate{" "}
-            <i class="fa-solid fa-star"></i>
+            {/* Rating {product.rating} && product.rating.rate{" "} */}
+            {/* <i class="fa-solid fa-star"></i> */}
           </p>
           <h3 className="display-6 fw-bold my-4 ">
             <i class="fa-solid fa-rupee-sign"></i> price
@@ -100,8 +92,8 @@ const Product = () => {
 
   return (
     <div>
-      <div className="container py-4">
-        <div className="row py-4">
+      <div className="container">
+        <div className="row">
           {loading ? <Loading /> : <ShowProduct />}
         </div>
       </div>
