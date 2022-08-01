@@ -1,6 +1,5 @@
 ## Title and Description
 *** Ronix Shop***
-This in
 
 ## Mini-Ecommerce App
 This is an simple mini-ecommerce app which is I can use to navigate around the homepage, 
